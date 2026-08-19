@@ -1,6 +1,6 @@
-Name:
-Grade:
-Favorite Programming Language:
-Favorite Thing About Computer Science:
-Something I Am Good At:
-Something I Want To Learn:
+Name: Ivana Micic
+Grade: 10th
+Favorite Programming Language: Python
+Favorite Thing About Computer Science: Learning to program
+Something I Am Good At: I can learn and listen well
+Something I Want To Learn: I want to learn how to program and use java
