@@ -35,6 +35,18 @@ public class Prize_Generator
         
         int fee = 1 + (int)(Math.random() * 5);
         
+        // int values are automatically promoted to double
+        // This is allowed because no information is lost
+        double finalBalance = startBalance + prizeAmount - fee;
         
+        System.out.println("\n Congratulations " + name + "! Here is your statement: ");
+        System.out.println("=========================================================");
+        
+        System.out.printf("%-25s %s\n", "Your Starting Balance: ", money.format(startBalance));
+        System.out.printf("%-25s %s\n", "Prize Money:  ", money.format(prizeAmount));
+        System.out.printf("%-25s %s\n", "Processing Fee: ", money.format(fee));
+        System.out.println("----------------------------------------------------");
+        System.out.printf("%-25s %s\n", "Final Balace", money.format(finalBalance));
+        System.out.println("----------------------------------------------------");
     }
 }
